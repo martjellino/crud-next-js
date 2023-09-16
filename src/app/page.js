@@ -19,14 +19,14 @@ export default async function Home() {
   return (
     <div className="mb-2 text-center">
       <div className="mb-16">
-        <h1 class="mb-6 text-4xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
+        <h1 class="mb-6 text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400 md:text-5xl lg:text-6xl">
           Books
           <span class="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
             {" "}
             Wishlist
           </span>{" "}
         </h1>
-        <p class="text-2xl font-bold text-gray-500 lg:text-xl dark:text-gray-400">
+        <p class="text-2xl font-bold text-gray-700 lg:text-xl dark:text-gray-300">
           Write your favorite book and go hunting for it in the bookstore after payday!
         </p>
       </div>
