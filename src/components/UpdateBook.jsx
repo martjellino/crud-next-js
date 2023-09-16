@@ -17,7 +17,7 @@ export const UpdateBook = ({ id, name, price, author, year, genre, publisher }) 
   const handleUpdate = async (e) => {
     e.preventDefault();
     setIsLoading(true);
-    const res = await fetch(`http://localhost:5000/books/${id}`, {
+    const res = await fetch(`https://devscale-mockapi.fly.dev/api/collections/books/records/${id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",

@@ -1,20 +1,17 @@
 import { AddBook } from "@/components/AddBook";
-// import { BookEditor } from "@/components/BookEditor";
 import { RemoveBook } from "@/components/RemoveBook";
 import { UpdateBook } from "@/components/UpdateBook";
 
 async function getBooks() {
-  const res = await fetch(`http://localhost:5000/books`, {
+  const res = await fetch(`https://devscale-mockapi.fly.dev/api/collections/books/records`, {
     cache: "no-cache",
   });
-  const data = await res.json();
-  // console.log(data)
-  return data;
+  const { items } = await res.json();
+  return items;
 }
 
 export default async function Home() {
   const books = await getBooks();
-  // console.log(books)
   return (
     <div className="mb-2 text-center">
       <div className="mb-10">
@@ -52,8 +49,4 @@ export default async function Home() {
       </table>
     </div>
   );
-}
-
-{
-  /* <BookEditor bookData={allData} /> */
 }

@@ -14,7 +14,7 @@ export const RemoveBook = (book) => {
   const handleDelete = async (bookID) => {
     setIsMutating(true);
     // setIsLoading(true);
-    await fetch(`http://localhost:5000/books/${bookID}`, {
+    await fetch(`https://devscale-mockapi.fly.dev/api/collections/books/records/${bookID}`, {
       method: "DELETE",
     });
     setIsMutating(false);

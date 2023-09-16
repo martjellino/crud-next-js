@@ -6,7 +6,7 @@
       "price": 51750,
       "author": "Paulo Coelho",
       "year": 1988,
-      "genre": "Quest",
+      "genre": "Fiction",
       "publisher": "Gramedia Pustaka Utama"
     },
     {
@@ -35,15 +35,6 @@
       "year": 2017,
       "genre": "Fiction",
       "publisher": "Gramedia Pustaka Utama"
-    },
-    {
-      "name": "",
-      "price": "",
-      "author": "",
-      "year": "",
-      "genre": "",
-      "publisher": "",
-      "id": 5
     },
     {
       "name": "First Person Singular",
