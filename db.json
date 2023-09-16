@@ -1,0 +1,58 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "name": "The Alchemist",
+      "price": 51750,
+      "author": "Paulo Coelho",
+      "year": 1988,
+      "genre": "Quest",
+      "publisher": "Gramedia Pustaka Utama"
+    },
+    {
+      "id": 2,
+      "name": "The Subtle Art of Not Giving a F*ck",
+      "price": 58500,
+      "author": "Mark Manson",
+      "year": 2016,
+      "genre": "Personal Development",
+      "publisher": "Gramedia Pustaka Utama"
+    },
+    {
+      "id": 3,
+      "name": "Rich Dad Poor Dad",
+      "price": 57800,
+      "author": "Robert T. Kiyosaki",
+      "year": 1997,
+      "genre": "Personal Finance",
+      "publisher": "Gramedia Pustaka Utama"
+    },
+    {
+      "id": 4,
+      "name": "Laut Bercerita",
+      "price": 109000,
+      "author": "Leila S. Chudori",
+      "year": 2017,
+      "genre": "Fiction",
+      "publisher": "Gramedia Pustaka Utama"
+    },
+    {
+      "name": "",
+      "price": "",
+      "author": "",
+      "year": "",
+      "genre": "",
+      "publisher": "",
+      "id": 5
+    },
+    {
+      "name": "First Person Singular",
+      "price": "63200",
+      "author": "Haruki Murakami",
+      "year": "2020",
+      "genre": "Fiction",
+      "publisher": "Kepustakaan Populer Gramedia",
+      "id": 6
+    }
+  ]
+}
